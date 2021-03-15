@@ -18,7 +18,7 @@ namespace KPuJAP_15._03
             Console.WriteLine("Введите породу: ");
             dog.setBreed(Console.ReadLine());
             Console.WriteLine("Введите возраст: ");
-            dog.setAge(Console.ReadLine());
+            dog.setAge(Convert.ToDouble(Console.ReadLine()));
             dog.ToString();
             Console.Clear();
             Console.ReadKey();
