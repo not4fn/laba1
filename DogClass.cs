@@ -10,12 +10,12 @@ namespace KPuJAP_15._03
     {
         public string Name;
         public string Breed;
-        public float Age;
+        public double Age;
         public DogClass()
         {
 
         }
-        public DogClass(string name, string breed, float age)
+        public DogClass(string name, string breed, double age)
         {
             Name = name;
             Breed = breed;
@@ -38,11 +38,11 @@ namespace KPuJAP_15._03
         {
             return Breed;
         }
-        public void setAge(string age)
+        public void setAge(double age)
         {
-            Age = Convert.ToInt64(age);
+            Age = Convert.ToDouble(age);
         }
-        public float getAge()
+        public double getAge()
         {
             return Age;
         }
