@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace KPuJAP_15._03
 {
     class Program
-    {
+    {//
         static void Main(string[] args)
         {
             Console.Clear();
